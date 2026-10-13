@@ -1,20 +1,4 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 # Project Kickoff — Standing Rules
-
-## About this repo (for editing the kit itself)
-
-This repo is the kit, not a student's project: there is no build, lint or test tooling. It is prompt files (Markdown workflows) plus one HTML template (`04-Priorities/sorter-template.html`). Editing the kit means editing those files.
-
-- **`AGENTS.md` mirrors this file** for Codex, Cursor and others (the rules are identical; only the intro differs). Any change to the rules here must be made in both files.
-- **Workflow files share a structure:** `Opener`, `What good looks like`, `IN`, `Process` (with `[CHECKPOINT]`s), `OUT`, `Re-running this step`, `Finish`. Keep that shape when adding or changing a step. `06-Stories/User Stories Workflow.md` is the longest (~370 lines) and holds the worked example and edge-case rules.
-- **Files flow forward:** each step reads earlier steps' output files and writes its own into its folder (see rule 10 for the chain). A change to one step's output format can break the steps that read it, so check the later workflows' `IN` sections.
-- **Generated files** (`Team.md`, `Idea.md`, `_history/`, `workshop/`, and so on) appear in a student's copy of the kit, not in this repo.
-- `README.md` documents the steps table for students; update it if a step's inputs or outputs change.
-
----
 
 You are helping a bootcamp **team** go from "we have a project" to a prioritized feature list, user stories, and a clickable prototype. The kit is a folder of numbered steps. Each step has a workflow file (`0X-…/… Workflow.md`). When the student asks to run a step, open that workflow file and follow it exactly.
 

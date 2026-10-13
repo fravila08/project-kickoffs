@@ -12,30 +12,28 @@ There's nothing to install. This folder *is* the kit.
 
 If you have a zip, unzip it. If you're on the GitHub page, click **Code → Download ZIP** and unzip it. The folder may be called `Project Kickoff` or `project-kickoffs-main`; either is fine, and you can rename it.
 
-> Alternatively you can clone down the repository with:
-> ```sh
-> git clone https://github.com/judithsoldyess/project-kickoffs.git
-> ```
+If you use git, you can clone it instead. The folder will be called `project-kickoffs`:
+
+```sh
+git clone https://github.com/judithsoldyess/project-kickoffs.git
+```
 
 **With Claude Code**
 
-Open a terminal, go to the folder, and start Claude Code. For example, if you downloaded it from GitHub into your Downloads folder:
+Open a terminal, go to the folder, and start Claude Code. For example, if you downloaded the ZIP from GitHub into your Downloads folder:
 
 ```sh
-cd Downloads/project-kickoffs
+cd Downloads/project-kickoffs-main
 claude
 ```
+
+If you cloned it, the folder is `project-kickoffs` instead.
 
 Use your folder's real name and location. Put quotes around it if the name has a space: `cd "Downloads/Project Kickoff"`. Then type: **Start Here**.
 
 **With another AI coding assistant** (Codex, Cursor, and others)
 
 Open this folder in the tool. It reads `AGENTS.md`, which has the same rules. Then ask it to follow `Start Here.md`.
-
-```sh
-/init
-Ensure to follow @"Start Here.md"
-```
 
 **No coding assistant?**
 
